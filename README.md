@@ -58,7 +58,7 @@ Transparency logs; external-dns still publishes one record per hostname.
 
 ```hcl
 module "loki" {
-  source = "git::https://github.com/HobOps/terraform-kubernetes-loki.git?ref=v0.1.0"
+  source = "git::https://github.com/HobOps/terraform-kubernetes-loki.git?ref=v0.0.1"
 
   tenants = {
     acme   = {}
